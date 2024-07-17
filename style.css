@@ -160,15 +160,7 @@ section h2 {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
 
-    .about-me, .project, .education, .skills, .courses, .languages, .contact {
-        margin-bottom: 20px;
-    }
-}
 @font-face {
     font-family: 'Poppins';
     font-weight: 900;
