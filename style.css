@@ -1,34 +1,193 @@
+body {
+    background-color: #9caf88;
+    color: #D9D9D9;
+}
 
 header {
-  display: flex;
-  align-items: center;
-  background-color: #CBC3E3;
-  color: #333;
-  padding: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #D9D9D9;
 }
 
-header img {
-  margin-right: 20px;
-  width: 250px;
-  height: 250px;
+header nav ul li {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #9caf88;
 }
 
-h1 {
-  margin-right: 20px;
-  font-size: 32px;
+footer {
+    background-color: #D9D9D9;
+    color: #4a5d4d;
 }
 
-h2 {
-  margin-right: 20px;
-  font-size: 24px;
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 90vh;
+    text-align: right;
 }
 
-header p {
-  margin-right: 20px;
-  font-size: 16px;
+.home img {
+    max-width: 1000px;
+	width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-content: flex-end;
 }
 
-header a {
-  color: #333 ;
-  text-decoration: none;
+.content h1 {
+    font-family: 'Finger Paint', sans-serif;
+    font-size: 7em;
 }
+
+.content h1 span {
+    color: #D9D9D9;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #D9D9D9;
+    color: #4a5d4d;
+}
+.container{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: 1fr 1fr;
+}
+section h2 {
+	 font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #4a5d4d;
+    color: #4a5d4d;
+}
+.about-me p{
+	font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+}
+.project p1{
+	font-family: 'Poppins';
+	font-weight:900;
+  font-style: normal;
+}
+.project p2{
+	font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+}
+.education p1{
+	font-family: 'Poppins';
+	font-weight:900;
+  font-style: normal;
+}
+.education p2{
+	font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+}
+.skills ul{
+		font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+}
+.courses p1,p3{
+		font-family: 'Poppins';
+	font-weight:900;
+  font-style: normal;
+}
+.courses p2,p4{
+		font-family: 'Poppins';
+	font-weight:500;
+  font-style: normal;
+}
+.languages p{
+		font-family: 'Poppins';
+	font-weight:500;
+  font-style: normal;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+	font-weight:500;
+  font-style: normal;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a5d4d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#scrolling-text {
+    background-color: #D9D9D9;
+    color: #4a5d4d;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .about-me, .project, .education, .skills, .courses, .languages, .contact {
+        margin-bottom: 20px;
+    }
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Black.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Black.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Black.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Black.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Medium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Poppins/Poppins-Medium.ttf') format("truetype");
+    font-display: swap;
+} 
