@@ -73,15 +73,12 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 90dvh; 
+    height: 95dvh; 
 }
 
 img {
-    display: flex;
-    width: 60%;
-    max-width: 950px;
+    width: 50%;
     height: auto;
-    padding-right: 90px;
 }
 
 img:hover {
@@ -109,19 +106,18 @@ img:hover {
 
 .content h1 {
     font-family: 'Finger Paint', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     color: #D9D9D9;
-    max-width: 950px;
-    height: auto;
 }
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    max-width: 50px;
+	  padding-top: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
+    margin: 5px 2px;
     text-decoration: none;
-    margin: 4px 2px;
     border-radius: 50%;
 }
 
@@ -217,25 +213,21 @@ section h2 {
     .nav-links li {
         margin: 10px 0;
     }
-
-    .home {
-        height: 0 auto;
-        width: 0 auto;
+    .content{
+    	padding: 20px;
     }
     .content h1 {
-        font-size: 2rem;
-    }
+     font-size: 30px;
+     }
 
-    .container {
-        padding: 1rem;
-    }
     .fa {
         font-size: 10px;
-        max-width: 30px;
+        width: 20px;     
+        height: 20px;   
     }
-    .homeimg{
-    max-width: 500px;
-    }
+   
+    .container {
+        padding: 1rem;
 }
 
 @font-face {
