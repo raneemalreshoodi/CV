@@ -42,15 +42,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: end;
-    height: 90vh;
-    text-align: right;
+    height: 90vh; 
 }
 
 .home img {
 	display: flex;
-  justify-content: flex-start;
+  margin-left: auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 950px;
   height: auto;"
 }
 img:hover {
