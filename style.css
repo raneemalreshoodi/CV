@@ -41,14 +41,15 @@ footer {
 .home {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
     height: 90vh; 
 }
 
 .home img {
-	display: flex;
+  display: flex;
   margin-left: auto;
-  width: 100%;
+  width: 90%;
   max-width: 950px;
   height: auto;"
 }
