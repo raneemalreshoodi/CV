@@ -208,7 +208,7 @@ section h2 {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .nav-links {
         flex-direction: column;
         text-align: center;
