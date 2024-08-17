@@ -9,6 +9,9 @@
     --button-text-color: #ffffff;
     --input-bg-color: #9caf88;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 [data-theme="dark"] {
     --background-color: #2e3b32;
@@ -148,7 +151,7 @@ section h2 {
 }
 
 .about-me p,
-.project p,
+.experience p,
 .education p,
 .courses p,
 .languages p,
@@ -166,7 +169,7 @@ section h2 {
   font-style: normal;
 }
 .education p1 ,
-.project p2 ,
+.experience p2 ,
 .courses p3 ,p4 {
     font-family: 'Poppins';
     font-weight: 900;
